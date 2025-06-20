@@ -1,0 +1,23 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### Netty GET request
+GET http://localhost:8007/test
+Content-Type: text/plain
+
+### Netty POST request
+POST http://localhost:8007/echo
+Content-Type: text/plain
+
+Hello, Netty!
+
+### Rest API GET request
+GET http://localhost:8080/api/echo?message=hello
+Accept: text/plain
+
+### Rest API POST request
+POST http://localhost:8080/api/echo
+Content-Type: text/plain
+
+Hello via POST
